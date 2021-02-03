@@ -7,7 +7,7 @@ melon_names = {
         'rind color': None, 
         'weight': None,
         # values are a dictionary of the attributes
-    }
+    },
 
     'Crenshaw': {
         'price': 2.00, 
@@ -15,7 +15,7 @@ melon_names = {
         'flesh color': None, 
         'rind color': None, 
         'weight': None,
-    }
+    },
 
     'Crane': {
         'price': 2.50, 
@@ -23,7 +23,7 @@ melon_names = {
         'flesh color': None, 
         'rind color': None, 
         'weight': None,
-    }
+    },
 
     'Casaba': {
         'price': 2.50, 
@@ -31,6 +31,8 @@ melon_names = {
         'flesh color': None, 
         'rind color': None, 
         'weight': None,
+    },
+    
     'Cantaloupe': {
         'price': 0.00, 
         'seedlessness': False, 
