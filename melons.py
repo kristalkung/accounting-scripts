@@ -1,8 +1,41 @@
 melon_names = {
-    'Honeydew': (0.99, True, None, None, None),
-    'Crenshaw': (2.00, False, None, None, None),
-    'Crane': (2.50, False, None, None, None),
-    'Casaba': (2.50, False, None, None, None),
-    'Cantaloupe': (0.99, False, None, None, None),
+    'Honeydew': {
+    # keys are the melon names
+        'price': 0.99,
+        'seedlessness': True, 
+        'flesh color': None, 
+        'rind color': None, 
+        'weight': None,
+        # values are a dictionary of the attributes
+    }
+
+    'Crenshaw': {
+        'price': 2.00, 
+        'seedlessness': False, 
+        'flesh color': None, 
+        'rind color': None, 
+        'weight': None,
+    }
+
+    'Crane': {
+        'price': 2.50, 
+        'seedlessness': False, 
+        'flesh color': None, 
+        'rind color': None, 
+        'weight': None,
+    }
+
+    'Casaba': {
+        'price': 2.50, 
+        'seedlessness': False, 
+        'flesh color': None, 
+        'rind color': None, 
+        'weight': None,
+    'Cantaloupe': {
+        'price': 0.00, 
+        'seedlessness': False, 
+        'flesh color': None, 
+        'rind color': None, 
+        'weight': None,
+    }
 }
-# keys: name; values: price, seedlessness, flesh color, rind color, weight
