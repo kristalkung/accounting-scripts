@@ -12,5 +12,6 @@ def print_melon(melons):
 
         for attribute, value in attributes.items():
             print(f'{attribute}: {value}')
+        print("")
 
 print_melon(melon_names)
