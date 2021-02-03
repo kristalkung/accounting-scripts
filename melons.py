@@ -1,23 +1,8 @@
 melon_names = {
-    1: 'Honeydew',
-    2: 'Crenshaw',
-    3: 'Crane',
-    4: 'Casaba',
-    5: 'Cantaloupe',
+    1: ('Honeydew', 0.99, True, None, None, None),
+    2: ('Crenshaw', 2.00, False, None, None, None),
+    3: ('Crane', 2.50, False, None, None, None),
+    4: ('Casaba', 2.50, False, None, None, None),
+    5: ('Cantaloupe', 0.99, False, None, None, None),
 }
-
-melon_prices = {
-    1: 0.99,
-    2: 2.00,
-    3: 2.50,
-    4: 2.50,
-    5: 0.99,
-}
-
-melon_seedlessness = {
-    1: True,
-    2: False,
-    3: False,
-    4: False,
-    5: False,
-}
+# values: name, price, seedlessness, flesh color, rind color, weight
